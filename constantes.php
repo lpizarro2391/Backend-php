@@ -1,6 +1,6 @@
 <?php
 const EJEMPLO01 = 30;
 define('Ejemplo',50);
-echo __FILE__;
+echo __LINE__;
 
 ?>
