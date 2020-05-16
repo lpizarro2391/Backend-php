@@ -6,6 +6,7 @@ $_persona3 ='Maria';
 function saludar(){
     global $persona1;
     echo "hola"." " .$persona1;
+
 }
 
 
