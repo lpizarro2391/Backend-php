@@ -10,7 +10,8 @@
 
     const RUEDAS = 4;
 
-    public __construct($cilindraje, $modelo, $peso){
+    public __construct($cilindraje,$peso,$modelo)
+    {
         $this ->$cilindraje = $cilindraje;
         $this->$modelo = $modelo;
         $this->$peso = $peso;
