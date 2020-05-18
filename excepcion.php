@@ -10,7 +10,7 @@ return $num1/$num2;
 }
 
 try{
-    echo dividir(6,2);
+    echo dividir(6,0);
 
 }catch(Exception $e){
     echo "Se presentó un Error ".$e->getMessage();
