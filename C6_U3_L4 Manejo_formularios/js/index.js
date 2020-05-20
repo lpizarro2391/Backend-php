@@ -7,11 +7,12 @@ $(function(){
   });
   
   $('formulario').submit(function(event){
+    var nombre= $('form').find('input[name = "nombre_usuario"]').val();
 
 
 
-    
-  })
+
+  });
 
 
 })
