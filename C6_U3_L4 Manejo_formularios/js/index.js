@@ -12,6 +12,8 @@ $(function(){
     $.ajax(
         {
         url: './recepcion_formulario.php',
+        type: 'POST',
+        data: {nombre:nombre}
         }
 
     )
