@@ -1,6 +1,6 @@
 <?php
 
-$nombre = $_GET['nombre_usuario'];
+$nombre = $_POST['nombre_usuario'];
   
 echo "El nombre recibido del formulario es: ".$nombre;
 
