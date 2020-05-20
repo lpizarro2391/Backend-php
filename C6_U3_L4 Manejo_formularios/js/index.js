@@ -5,8 +5,13 @@ $(function(){
     selectMonths: true,
     selectYears: 50
   });
-  $('form').submit(function(){
-    $('select').material_select('destroy');
-    $('.datepicker').pickadate('destroy');
-  });
+  
+  $('formulario').submit(function(event){
+
+
+
+    
+  })
+
+
 })
