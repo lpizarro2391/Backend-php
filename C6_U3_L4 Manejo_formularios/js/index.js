@@ -16,7 +16,9 @@ $(function(){
         data: {nombre:nombre}
         }
 
-    )
+    ).done(function(data){
+      alert(data);
+    })
 
 
 
