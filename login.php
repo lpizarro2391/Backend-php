@@ -8,6 +8,14 @@ $data = json_encode($data_readed,true);
 $user_ingresado = $_POST['username'];
 $password_ingresado = $_POST['password'];
 
+if(checkLogin($user_ingresado,$password_ingresado,$data)){
+
+    echo "true";
+
+}else{
+    echo "false";
+}
+
 
 
 
