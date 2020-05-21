@@ -10,6 +10,12 @@ $password_ingresado = $_POST['password'];
 
 if(checkLogin($user_ingresado,$password_ingresado,$data)){
     setcookie('saludo','Bienvenido de nuevo',time()+(84600),"/");
+    session_start();
+    $nombre_completo = getInfo($user_ingresado, $data, 'nombre_completo');
+    $ruta_imagen = getInfo($user_ingresado,$data, 'img');
+    $_SESSION['nombre']= $nombre_completo;
+    
+    
     echo "true";
 
 }else{
