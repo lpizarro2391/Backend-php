@@ -9,7 +9,7 @@ $user_ingresado = $_POST['username'];
 $password_ingresado = $_POST['password'];
 
 if(checkLogin($user_ingresado,$password_ingresado,$data)){
-
+    setcookie('saludo','Bienvenido de nuevo',time()+(84600),"/");
     echo "true";
 
 }else{
