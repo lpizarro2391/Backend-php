@@ -14,10 +14,7 @@ if(checkLogin($user_ingresado,$password_ingresado,$data)){
     $nombre_completo = getInfo($user_ingresado, $data, 'nombre_completo');
     $ruta_imagen = getInfo($user_ingresado,$data, 'img');
     $_SESSION['nombre']= $nombre_completo;
-    
-
-    
-    
+    $_SESSION['img-profile'] ? $ruta_imagen;
     echo "true";
 
 }else{
