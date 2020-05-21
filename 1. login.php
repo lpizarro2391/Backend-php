@@ -15,6 +15,8 @@ if(checkLogin($user_ingresado,$password_ingresado,$data)){
     $ruta_imagen = getInfo($user_ingresado,$data, 'img');
     $_SESSION['nombre']= $nombre_completo;
     
+
+    
     
     echo "true";
 
