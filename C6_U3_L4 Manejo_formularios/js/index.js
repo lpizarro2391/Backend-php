@@ -6,7 +6,7 @@ $(function(){
     selectYears: 50
   });
   
-  $('formulario').submit(function(event){
+  $('#formulario').submit(function(event){
     var nombre= $('form').find('input[name="nombre_usuario"]').val();
     event.preventDefault();
     $.ajax(
