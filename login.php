@@ -16,7 +16,7 @@ if(checkLogin($user_ingresado,$password_ingresado,$data)){
     echo "false";
 }
 
-
+fclose($data_file);
 
 
 ?>
