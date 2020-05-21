@@ -7,7 +7,7 @@ $(function(){
   });
   
   $('formulario').submit(function(event){
-    var nombre= $('form').find('input[name = "nombre_usuario"]').val();
+    var nombre= $('form').find('input[name="nombre_usuario"]').val();
     event.preventDefault();
     $.ajax(
         {
@@ -18,6 +18,8 @@ $(function(){
 
     ).done(function(data){
       alert(data);
+    }).fail(function (error){
+      console.log(error);
     })
 
 
