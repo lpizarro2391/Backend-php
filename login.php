@@ -5,6 +5,9 @@ $data_file = fopen("./js/users.json","r");
 $data_readed = fread($data_file,filesize("./js/users.json"));
 $data = json_encode($data_readed,true);
 
+$user_ingresado = $_POST['username'];
+$password_ingresado = $_POST['password'];
+
 
 
 
